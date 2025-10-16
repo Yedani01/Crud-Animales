@@ -1,13 +1,13 @@
 <?php 
-    require_once $_SERVER['DOCUMENT_ROOT'] . "/Crud-Animales/vendor/autoload.php";
+    require_once $_SERVER['DOCUMENT_ROOT'] . "/b221190096/Crud-Animales/vendor/autoload.php";
 
     class Conexion {
         public static function conectar() {
            try {
                 $servidor = "127.0.0.1";
                 $puerto = "27017";
-                $usuario = "mongoadmin";
-                $password = "123456";
+                $usuario = "backend";
+                $password = "backend2025";
                 $BD = "crud_animales";
                 $cadenaConexion = "mongodb://" .
                     $usuario . ":" .
